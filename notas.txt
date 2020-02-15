@@ -4,3 +4,6 @@ se realiza configuracion de variables de entorno, eslint y prettier
 npm i express dotenv
 npm i -D nodemon eslint eslint-config-prettier eslint-plugin-prettier prettier
 npx mrm lint-staged -- sirve para subir al repositorio con reglas de eslint
+
+
+npm i mongodb

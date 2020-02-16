@@ -17,7 +17,6 @@ const movieSourceSchema = joi.string().uri();
 const movieTagsSchema = joi.array().items(joi.string().max(50));
 
 const createMovieSchema = {
-  id: movieIdSchema.required(),
   title: movieTitleSchema.required(),
   year: movieYearSchema.required(),
   cover: movieCoverSchema.required(),

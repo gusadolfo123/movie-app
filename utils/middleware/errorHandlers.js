@@ -15,7 +15,7 @@ function logErrors(err, req, res, next) {
 }
 
 function wrapErrors(err, req, res, next) {
-  if (!err.boom) {
+  if (!err.isBoom) {
     next(boom.badImplementation(err));
   }
 

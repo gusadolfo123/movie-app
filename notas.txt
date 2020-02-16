@@ -15,3 +15,6 @@ Boom: para manejo de excepciones retorno de errores HTTP amigables
 
 npm i @hapi/boom
 npm i @hapi/joi
+
+manejo de test
+npm i -D mocha supertest sinon proxyquire

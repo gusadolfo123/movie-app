@@ -7,3 +7,11 @@ npx mrm lint-staged -- sirve para subir al repositorio con reglas de eslint
 
 
 npm i mongodb
+
+Librerias
+Joi y Boom
+Joi: para validar datos de entrada
+Boom: para manejo de excepciones retorno de errores HTTP amigables
+
+npm i @hapi/boom
+npm i @hapi/joi

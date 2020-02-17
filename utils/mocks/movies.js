@@ -310,4 +310,4 @@ class MoviesServiceMock {
   }
 }
 
-module.exports = { filteredMoviesMock, MoviesServiceMock };
+module.exports = { moviesMock, MoviesServiceMock, filteredMoviesMock };

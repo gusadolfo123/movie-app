@@ -18,3 +18,8 @@ npm i @hapi/joi
 
 manejo de test
 npm i -D mocha supertest sinon proxyquire
+
+npm i -D nyc
+luego crear comando en package.json
+
+npm install cors

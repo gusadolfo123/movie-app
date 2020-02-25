@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 
 const { config } = require('./config/index');
@@ -15,6 +16,9 @@ const {
 } = require('./utils/middleware/pruebaHandler');
 
 const notFoundHandler = require('./utils/middleware/notFoundHandler');
+
+// CONFIG CORS
+app.use(cors());
 
 // MIDDLEWARES
 app.use(express.urlencoded({ extended: false }));

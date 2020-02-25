@@ -23,3 +23,17 @@ npm i -D nyc
 luego crear comando en package.json
 
 npm install cors
+
+dockerizar aplicacion
+crear dockerfile
+crear imegen: docker build -t movies-api .
+correr la imagen: docker run -p 3000:3000 -d movies-api
+
+para despliegue en now
+npm i -g now
+
+usar secrests para manejo de variables de entorno
+now secret add platzivideos-db-user zetman123
+now secret add platzivideos-db-password mZDLLsBeLEsgAJqB
+now secret add platzivideos-db-host cluster0-1df5h.mongodb.net
+now secret add platzivideos-db-name platzi_video_db

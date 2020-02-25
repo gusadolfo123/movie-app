@@ -6,7 +6,7 @@ function withErrorStack(error, stack) {
     // return { error, stack }; sin boom
     return { ...error, stack };
   }
-  return error;
+  return { ...error, stack };
 }
 
 function logErrors(err, req, res, next) {

@@ -37,3 +37,5 @@ now secret add platzivideos-db-user zetman123
 now secret add platzivideos-db-password mZDLLsBeLEsgAJqB
 now secret add platzivideos-db-host cluster0-1df5h.mongodb.net
 now secret add platzivideos-db-name platzi_video_db
+
+now alias https://platzivideo-eight.now.sh platzivideo-morenoga-api.now.sh
